@@ -1,3 +1,6 @@
-.textos {
-    align-items: center;
+.texto{
+   margin-top: 0%;
+   text-align: center;
+   background-color: rgb(255, 16, 16);
+   padding-block: 25px;
 }
