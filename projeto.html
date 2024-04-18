@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marketplace de Comida</title>
-    <link rel="stylesheet" href="projeto.css">
-    <link rel="stylesheet" href="projeto.js">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Marketplace de Comida</h1>
     </header>
+    <div class="sidebar">
+        <div id="search">
+            <input type="text" id="search-input" placeholder="Pesquisar...">
+            <button onclick="searchMenu()">Pesquisar</button>
+        </div>
+    </div>
     <div id="menu">
         <h2>Menu</h2>
         <ul id="menu-list">

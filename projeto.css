@@ -11,8 +11,21 @@ header {
    text-align: center;
 }
 
+.sidebar {
+   background-color: #f4f4f4;
+   padding: 20px;
+   width: 250px;
+   position: fixed;
+   height: 100%;
+   overflow: auto;
+}
+
+#search {
+   margin-bottom: 20px;
+}
+
 #menu {
-   margin: 20px;
+   margin-left: 270px;
 }
 
 #menu-list {
