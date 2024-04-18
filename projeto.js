@@ -16,5 +16,5 @@ function displayMenu() {
     });
 }
 
-// Chamada da função para exibir o menu ao carregar a página
+
 window.onload = displayMenu;
