@@ -11,7 +11,7 @@ header {
    text-align: center;
 }
 
-.sidebar {
+.barralateral {
    background-color: #f4f4f4;
    padding: 20px;
    width: 250px;
@@ -20,12 +20,12 @@ header {
    overflow: auto;
 }
 
-#search {
+#pesquisa {
    margin-bottom: 20px;
 }
 
 #menu {
-   margin-left: 270px;
+   margin-left: 300px;
 }
 
 #menu-list {

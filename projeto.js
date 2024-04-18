@@ -16,7 +16,7 @@ function displayMenu() {
     });
 }
 
-// Função para pesquisar no menu
+
 function searchMenu() {
     const searchTerm = document.getElementById("search-input").value.toLowerCase();
     const filteredMenu = menuItems.filter(item => item.name.toLowerCase().includes(searchTerm));
