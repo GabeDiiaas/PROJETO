@@ -1,6 +1,32 @@
-.texto{
-   margin-top: 0%;
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
    text-align: center;
-   background-color: rgb(255, 16, 16);
-   padding-block: 25px;
+}
+
+#menu {
+   margin: 20px;
+}
+
+#menu-list {
+   list-style-type: none;
+   padding: 0;
+}
+
+#menu-list li {
+   margin-bottom: 10px;
+}
+
+.item {
+   border: 1px solid #ccc;
+   padding: 10px;
+   border-radius: 5px;
+   background-color: #f9f9f9;
 }
